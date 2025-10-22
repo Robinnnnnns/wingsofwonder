@@ -24,7 +24,7 @@ pages = {
         st.Page("pages/Poster.py", title="Poster"),
         st.Page("pages/Story.py", title="Storyboard"),
         st.Page("pages/Gallery.py", title="Gallery"),
-        st.Page("pages/banner.py", title="Banner"),
+        st.Page("pages/banner.py", title="Sketch"),
 
     ],
     "Podcast": [
