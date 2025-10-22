@@ -1,5 +1,9 @@
 import streamlit as st
 
+st.set_page_config(page_title="Sketch", page_icon="🖼️", layout="wide")
+
+
+
 st.title("Sketch")
 st.header(" ")
 st.header("Logo")

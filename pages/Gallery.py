@@ -4,7 +4,7 @@ import streamlit as st
 import time
 
 
-st.set_page_config(page_title="Poster · Multimedia Container", page_icon="🖼️", layout="wide")
+st.set_page_config(page_title="Gallery", page_icon="🖼️", layout="wide")
 st.title("Gallery")
 
 # Your images: local paths or URLs
