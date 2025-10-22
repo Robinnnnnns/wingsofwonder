@@ -37,7 +37,7 @@ col1,col2,col3=st.columns([1,2,3],border=True,gap='small')
 with col1:
     st.write('Sulphur-Crested Cockatoo')
 with col2:
-    st.image("assets/gallery/photo5.JPG")
+    st.image("assets/gallery/photo5.jpg")
 with col3:
     st.write('The Sulphur-crested Cockatoo is a bold, brilliant bird crowned with a flash of yellow. Its raucous calls echo through the treetops, announcing life and freedom in the Australian wild. With wings of light and laughter, it turns every morning into celebration.')
 
@@ -45,7 +45,7 @@ col1,col2,col3=st.columns([1,2,3],border=True,gap='small')
 with col1:
     st.write('Noisy Miner')
 with col2:
-    st.image("assets/gallery/photo6.JPG")
+    st.image("assets/gallery/photo6.jpg")
 with col3:
     st.write('The Noisy Miner is a lively, grey songbird whose sharp calls and fearless spirit fill the Australian suburbs. Always social and bold, it moves in flocks that defend their trees with playful persistence. Its voice may be loud, but it carries the heartbeat of community.')
 
@@ -53,7 +53,7 @@ col1,col2,col3=st.columns([1,2,3],border=True,gap='small')
 with col1:
     st.write('Rainbow Lorikeet')
 with col2:
-    st.image("assets/gallery/photo7.JPG")
+    st.image("assets/gallery/photo7.jpg")
 with col3:
     st.write('The Rainbow Lorikeet is a burst of colour in motion, painting the sky with its vivid plumage. Its playful chatter fills the treetops as it sips nectar from blossoms. Wherever it flies, joy follows in its wake.')
 
@@ -61,7 +61,7 @@ col1,col2,col3=st.columns([1,2,3],border=True,gap='small')
 with col1:
     st.write('Australian Pelican')
 with col2:
-    st.image("assets/gallery/photo8.JPG")
+    st.image("assets/gallery/photo8.jpg")
 with col3:
     st.write('With wings wide as the horizon, the Australian Pelican glides effortlessly over water and sky. Its calm grace and grand form embody the quiet majesty of the coast. In stillness or in flight, it is poetry in motion.')
 
@@ -69,7 +69,7 @@ col1,col2,col3=st.columns([1,2,3],border=True,gap='small')
 with col1:
     st.write('Australian Darter')
 with col2:
-    st.image("assets/gallery/photo9.JPG")
+    st.image("assets/gallery/photo9.jpg")
 with col3:
     st.write('The Australian Darter, often called the “snakebird,” is known for its long neck and elegant dives. It hunts underwater and then spreads its wings in the sun to dry, a quiet symbol of Australia’s rivers and wetlands.')
 
