@@ -16,4 +16,4 @@ with tab2:
     st.header("2")
     with st.container(border=True, width='stretch',height="content"):
         st.image("assets/poster2.png")
-
+st.text("The posters are based on my own photography, capturing a dynamic moment of a New Holland honeyeater and a couple of kookaburras in motion. Designed in Figma, the poster uses its natural color palette to evoke freshness and vitality, with high visual contrast to enhance the overall impact. ")
