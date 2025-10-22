@@ -1,0 +1,39 @@
+
+# pages/1_Poster.py
+import streamlit as st
+import time
+
+
+st.set_page_config(page_title="Poster · Multimedia Container", page_icon="🖼️", layout="wide")
+st.title("Gallery")
+
+# Your images: local paths or URLs
+IMAGES = [
+    "assets/gallery/photo1.jpg",
+    "assets/gallery/photo2.jpg",
+    "assets/gallery/photo3.jpg",
+    "assets/gallery/photo4.jpg",
+    "assets/gallery/photo5.jpg",
+    "assets/gallery/photo6.jpg",
+    "assets/gallery/photo7.jpg",
+    "assets/gallery/photo8.jpg",
+    "assets/gallery/photo9.jpg",
+]
+
+if "car_idx" not in st.session_state:
+    st.session_state.car_idx = 0
+
+#callback
+def shift(delta: int):
+    n = len(IMAGES)
+    st.session_state.car_idx = (st.session_state.car_idx + delta) % n
+
+l, mid, r = st.columns([1, 6, 1], gap="small")
+with l:
+    st.button("⟵", on_click=shift, args=[-1])
+with mid:
+    st.image(IMAGES[st.session_state.car_idx])
+    st.caption(f"{st.session_state.car_idx+1} / {len(IMAGES)}")
+with r:
+    st.button("⟶", on_click=shift, args=[1])
+
