@@ -67,7 +67,7 @@ pages = {
     ],
     "Videos": [
         st.Page("pages/Video.py", title="Video"),
-        st.Page("pages/Animation.py", title="3D Animation"),
+        st.Page("pages/Animation.py", title="3D Models"),
     ],
 }
 

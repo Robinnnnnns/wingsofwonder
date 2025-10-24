@@ -1,6 +1,9 @@
 import streamlit as st
 st.title("Birds")
 
+
+        
+
 col1,col2,col3=st.columns([1,2,3],border=True,gap='small')
 with col1:
     st.write('Laughing Kookaburra')
