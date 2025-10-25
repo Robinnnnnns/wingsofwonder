@@ -42,14 +42,17 @@ st.markdown("""
 div[data-baseweb="select"] > div {
     border-radius: 8px;
 }
+            
+
 </style>
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    st.image('assets/logo.png', use_container_width=True)
+        
+ st.image('assets/logo.png', use_container_width=True)  
    
 
-pages = {
+ pages = {
     "Home": [
         st.Page("pages/4_text.py", title="Home"),
     ],
@@ -69,10 +72,11 @@ pages = {
         st.Page("pages/Video.py", title="Video"),
         st.Page("pages/Animation.py", title="3D Models"),
     ],
+
+    
 }
 
-with st.container():
-    st.image('assets/banner.png', use_container_width=True)
+
 
 po = "sidebar"
 pg = st.navigation(pages, position=po)
