@@ -31,7 +31,8 @@ with st.container():
                 st.session_state["chapter_time"] = t
 
     st.video(VIDEO_PATH, start_time=st.session_state["chapter_time"],subtitles="assets/sub.vtt")
-    st.caption(f"Current chapter start: {st.session_state['chapter_time']} seconds")
+   
+
 
 
 
