@@ -23,12 +23,16 @@ tab1, tab2 ,tab3= st.tabs(["1", "2","3"])
 with tab1:
     st.header("Rainbow Lorikeet")
     with st.container(width=800,border=False):
-      st.video("assets/3D5.mkv", loop=True,subtitles="assets/sub.vtt")
+      st.video("assets/3D5.mkv", loop=True)
 with tab2:
     st.header("Kookaburra")
     with st.container(width=800,border=False):
-      st.video("assets/3D6.mkv", loop=True,subtitles="assets/sub.vtt")
+      st.video("assets/3D6.mkv", loop=True)
 with tab3:
     st.header("Mascot")
     with st.container(width=800,border=False):
-      st.video("assets/3D7.webm", loop=True,subtitles="assets/sub.vtt")
+      st.video("assets/3D7.webm", loop=True,)
+
+st.header("Flying Movement")
+with st.container(width=800,border=False):
+    st.video("assets/3D4.mkv", loop=True)
